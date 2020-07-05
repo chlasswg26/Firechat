@@ -7,10 +7,13 @@
 </p>
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/chlasswg26/)
+
+
 ![GitHub](https://img.shields.io/github/license/chlasswg26/Firechat?style=for-the-badge)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/chlasswg26/Firechat/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/chlasswg26/Firechat?style=for-the-badge)
 ![GitHub followers](https://img.shields.io/github/followers/chlasswg26?style=for-the-badge)
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/chlasswg26/Firechat/)
 
 ---
 
@@ -22,6 +25,17 @@
 - Realtime Chat
 
 Currently supported React Native version: `>= 0.60.0`
+
+### Dependencies
+
+List of dependencies using this project.
+
+| Name | Repository |
+| ------ | ------ |
+| React Native | [facebook/react-native](https://facebook.github.io/react-native/) |
+| Firebase | [Firebase SDK](https://www.npmjs.com/package/firebase) |
+| UI Kitten | [akveo/react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/) |
+| Gifted Chat | [FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat) |
 
 ## Requirements
 
@@ -60,6 +74,13 @@ FIREBASE_MEASUREMENTID=''
   ```
 6. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
 7. Well done..
+
+## Release APK
+
+<a href="https://drive.google.com/file/d/1WHvMc0kSENALi_Ucqd3CTNM3gov5MN95/view?usp=sharing">
+  <img src="https://img.shields.io/badge/Download%20on%20the-Google%20Drive-blue.svg?style=popout&logo=google-drive"/>
+</a>
+
 
 ## Screenshot
 
