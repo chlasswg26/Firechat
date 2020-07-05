@@ -36,6 +36,7 @@ List of dependencies using this project.
 | React Native | [facebook/react-native](https://facebook.github.io/react-native/) |
 | Firebase | [Firebase SDK](https://www.npmjs.com/package/firebase) |
 | UI Kitten | [akveo/react-native-ui-kitten](https://github.com/akveo/react-native-ui-kitten/) |
+| Maps | [react-native-community/react-native-maps](https://github.com/react-native-community/react-native-maps) |
 | Gifted Chat | [FaridSafi/react-native-gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat) |
 
 ## Requirements
