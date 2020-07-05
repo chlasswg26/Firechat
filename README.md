@@ -103,3 +103,7 @@ FIREBASE_MEASUREMENTID=''
 <kbd>
 <img src="./screenshot/Screenshot_20200705_105537.jpg" width="200">
 </kbd>
+
+## CREDIT
+
+Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
