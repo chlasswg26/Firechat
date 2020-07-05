@@ -8,6 +8,7 @@
 
 <p align="center">
 
+
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/chlasswg26/)
 
 
@@ -16,6 +17,7 @@
 ![GitHub followers](https://img.shields.io/github/followers/chlasswg26?style=for-the-badge)
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/chlasswg26/Firechat/)
+
 
 </p>
 
