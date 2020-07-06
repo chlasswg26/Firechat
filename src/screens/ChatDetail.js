@@ -5,6 +5,7 @@ import React, {
 import firebase from 'firebase';
 import { GiftedChat } from 'react-native-gifted-chat';
 import User from '../config/Userdata';
+import AsyncStorage from '@react-native-community/async-storage';
 import {
   Icon,
   TopNavigation,
@@ -29,21 +30,27 @@ class ChatDetail extends Component {
   }
   componentDidMount() {
     try {
-      firebase
-        .database()
-        .ref('messages')
-        .child(this.state.userId)
-        .child(this.state.uid)
-        .on('child_added', value => {
-          this.setState(previousState => {
-            return {
-              messagesList: GiftedChat.append(
-                previousState.messagesList,
-                value.val()
-              ),
-            };
-          });
+      AsyncStorage.getItem('uid')
+      .then(values => {
+        this.setState({
+          userId: values,
         });
+        firebase
+          .database()
+          .ref('messages')
+          .child(this.state.uid)
+          .child(values)
+          .on('child_added', value => {
+            this.setState(previousState => {
+              return {
+                messagesList: GiftedChat.append(
+                  previousState.messagesList,
+                  value.val()
+                ),
+              };
+            });
+          });
+      });
     } catch (error) {
       console.log(error);
     }
@@ -53,8 +60,8 @@ class ChatDetail extends Component {
       let msgId = firebase
         .database()
         .ref('messages')
-        .child(this.state.userId)
         .child(this.state.uid)
+        .child(this.state.userId)
         .push().key;
       let updates = {};
       let message = {
@@ -77,7 +84,7 @@ class ChatDetail extends Component {
         .database()
         .ref()
         .update(updates);
-      this.setState({ text: null });
+      this.setState({ text: '' });
     }
   };
 
