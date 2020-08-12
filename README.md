@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="react-native-paper" src="https://i.imgur.com/uaslBWW.png" width="300">
+  <img alt="Firechat Apps" src="https://i.imgur.com/uaslBWW.png" width="300">
 </p>
 <p align="center">
   Firechat name inspired from <strong>Enen no Shouboutai</strong>.<br/>
