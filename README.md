@@ -74,8 +74,8 @@ FIREBASE_MEASUREMENTID=''
         android:name="com.google.android.geo.API_KEY"
         android:value="YOUR_API_KEY"/>
   ```
-6. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
-7. Well done..
+5. Type `react-native run-android` for run this app. ***Make sure your device is connected with debugging mode***.
+6. Well done..
 
 ## Release APK
 
